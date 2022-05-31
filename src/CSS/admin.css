@@ -1,0 +1,35 @@
+.admin{
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add-product, .delete-product, .delete-brand{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.add-product form, 
+.delete form{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-product form input, 
+.delete form input{
+    width: 20vw;
+    height: 2rem;
+    text-align: center;
+}
+
+.add-product form textarea{
+    padding: 2px;
+}
+
+.add-product form input::placeholder, 
+.add-product form textarea::placeholder, 
+.delete form input::placeholder{
+    text-align: center;
+}

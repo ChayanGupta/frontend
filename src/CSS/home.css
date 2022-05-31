@@ -1,0 +1,27 @@
+.home-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    color: #337ab7;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    line-height: 1.8em;
+}
+
+.home-card > * {
+    margin: 1em 0;
+  }
+
+.home-card .card{
+    padding: 10px;
+    border-radius:15px;
+}
+
+.home-card .card:hover{
+    cursor: pointer;
+    border: 1px solid grey;
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s;
+}

@@ -1,0 +1,1 @@
+export const PRODUCTS_DETAILS = "products_details"
